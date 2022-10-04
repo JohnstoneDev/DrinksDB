@@ -12,7 +12,7 @@
 
 ## Since it is a Single-Page-Application React-Router V5 hadnles the client side Routing. 
 
-## To see the project in action you can visit ["https://drinks-db.vercel.app/"] or clone this repo and run it locally, with the exception that to set up your local database run `npm run server` to start json-server which will act as your API & change the collected drinks url to use ['localhost:3000'].
+## To see the project in action you can visit ["https://drinks-db.vercel.app/"] / ["drinks-db-johnstonedev.vercel.app"] or clone this repo and run it locally, with the exception that to set up your local database run `npm run server` to start json-server which will act as your API & change the collected drinks url to use ['localhost:3000'].
 
 ## The coktails are fetched from the Cocktails-db API here ["https://www.thecocktaildb.com/api.php']
 
