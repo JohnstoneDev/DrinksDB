@@ -16,7 +16,7 @@ function CocktailPage({ drink ,passClickFunction, buttonMessage }){
         } = drink ; 
 
     return (
-        <div className="py-3 px-3 bg-slate-100">
+        <div className="py-3 w-screen px-3 bg-slate-100">
             <section className="px-4 py-4">
                 <div className="flex flex-row gap-5 align-middle">
                     <img src={strDrinkThumb} alt={strDrink} className="object-cover h-86 w-96 shadow-2xl"></img>

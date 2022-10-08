@@ -71,7 +71,7 @@ function Home(){
         e.preventDefault();
         const drinkName = letterRef.current.value;
 
-        if(drinkName !=="") setLetter(drinkName); 
+        if(drinkName !== "") setLetter(drinkName); 
 
         fetchDrinks()
     }
@@ -80,7 +80,7 @@ function Home(){
    
     function SearchCriteria(){
         return (
-            <form onSubmit={handleSubmit} className="py-3 px-3">
+            <form onSubmit={handleSubmit} className="py-3 px-3 w-screen">
                 <h4 hidden={modal}>{message}</h4>
                 <input type="text" ref={letterRef} placeholder="enter drink name" className="border border-l-rounded px-l-2"/>
                 <button onClick={handleSubmit} className="border-2 rounded-r-lg px-2 bg-slate-400 text-white hover:bg-slate-800 shadow-2xl">Get Drinks</button>
@@ -132,7 +132,7 @@ function Home(){
     }
 
     return (
-        <div className="h-full w-full py-2 px-3">
+        <div className="h-full w-screen py-2 px-3">
           <Navigation/>
           <Switch>
             <Route path="/collection">
